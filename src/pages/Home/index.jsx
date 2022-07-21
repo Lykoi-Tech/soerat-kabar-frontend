@@ -39,17 +39,17 @@ const Home = () => {
           <h1>Macam Soerat Kabar</h1>
           <a href="#lihat-semua">Lihat Semua</a>
         </div>
-        <div class="category">
-          <div class="category-1">SEA GAMES</div>
-          <div class="category-2">SEA GAMES</div>
-          <div class="category-3">SEA GAMES</div>
-          <div class="category-4">SEA GAMES</div>
-          <div class="category-5">SEA GAMES</div>
-          <div class="category-6">SEA GAMES</div>
-          <div class="category-7">SEA GAMES</div>
-          <div class="category-8">SEA GAMES</div>
-          <div class="category-9">SEA GAMES</div>
-          <div class="category-10">SEA GAMES</div>
+        <div className="category">
+          <div className="category-1">SEA GAMES</div>
+          <div className="category-2">SEA GAMES</div>
+          <div className="category-3">SEA GAMES</div>
+          <div className="category-4">SEA GAMES</div>
+          <div className="category-5">SEA GAMES</div>
+          <div className="category-6">SEA GAMES</div>
+          <div className="category-7">SEA GAMES</div>
+          <div className="category-8">SEA GAMES</div>
+          <div className="category-9">SEA GAMES</div>
+          <div className="category-10">SEA GAMES</div>
         </div>
       </div>
       <div className="quotes">
@@ -79,28 +79,28 @@ const Home = () => {
       </div>
       <div className="collections">
         <p className="collections-title">Koleksi Majalah & Surat Kabar Langka</p>
-        <div class="collection">
-          <div class="collection-1">
+        <div className="collection">
+          <div className="collection-1">
             <p className="collection-title">Naskah Kuno</p>
             <p className="collection-count">3571 Koleksi</p>
           </div>
-          <div class="collection-2">
+          <div className="collection-2">
             <p className="collection-title">Naskah Kuno</p>
             <p className="collection-count">3571 Koleksi</p>
           </div>
-          <div class="collection-3">
+          <div className="collection-3">
             <p className="collection-title">Naskah Kuno</p>
             <p className="collection-count">3571 Koleksi</p>
           </div>
-          <div class="collection-4">
+          <div className="collection-4">
             <p className="collection-title">Naskah Kuno</p>
             <p className="collection-count">3571 Koleksi</p>
           </div>
-          <div class="collection-5">
+          <div className="collection-5">
             <p className="collection-title">Naskah Kuno</p>
             <p className="collection-count">3571 Koleksi</p>
           </div>
-          <div class="collection-6">
+          <div className="collection-6">
             <p className="collection-title">Naskah Kuno</p>
             <p className="collection-count">3571 Koleksi</p>
           </div>

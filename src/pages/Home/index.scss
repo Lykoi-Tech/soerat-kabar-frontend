@@ -31,8 +31,12 @@
     transition: all 0.3s ease 0s;
 }
 
-.hero-search input:hover {
+.hero-search input:hover, .hero-search input:focus {
     box-shadow: 3px 3px;
+}
+
+input:focus {
+    outline: none;
 }
 
 .headline {
