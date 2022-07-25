@@ -1,5 +1,5 @@
 .hero {
-    margin: 70px 200px 130px;
+    margin: 70px 200px 0;
     text-align: center;
 }
 
@@ -40,7 +40,7 @@ input:focus {
 }
 
 .headline {
-    margin: 0 200px 220px;
+    margin: 130px 200px 220px;
 }
 
 .headline h1, .headline p, .headline a {
@@ -80,6 +80,7 @@ input:focus {
   
 .headline-small > div {
     font-size: 30px;
+    margin-bottom: 97px;
 }
 
 .headline-small h1 {
@@ -136,7 +137,7 @@ input:focus {
 .category > div {
     text-align: center;
     padding: 11px 25px;
-    font-size: 16px;
+    font-size: 15px;
     font-family: 'Montserrat';
     font-weight: 600;
     line-height: 20px;
