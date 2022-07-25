@@ -30,9 +30,16 @@ const Navigation = () => {
           })} WIB
         </p>
         <div className="navbar-menu">
-          <a className="active" href="#beranda">Beranda</a>
-          <a href="#kategori">Kategori</a>
-          <a href="#arsip-nasional">Arsip Nasional</a>
+          <NavLink
+            className={isActive =>
+              (!isActive ? "active" : "")
+            }
+            to="/"
+          >
+            Beranda
+          </NavLink>
+          <NavLink to="/kategori">Kategori</NavLink>
+          <NavLink to="/arsip-nasional">Arsip Nasional</NavLink>
         </div>
       </div>
     </div>

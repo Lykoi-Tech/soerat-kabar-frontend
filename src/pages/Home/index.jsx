@@ -1,25 +1,18 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import Hero from '../../components/Hero';
 import './index.scss';
 
 const Home = () => {
   return(
     <div className="main">
-      <div className="hero">
-        <div className="hero-title">
-          <p className="main-title">Soerat Kabar</p>
-          <p className="subtitle">Semua berita di dunia mana pun lengkap semua ada disini</p>
-        </div>
-        <div className="hero-search">
-          <input type="text" name="search" id="search" size="75" placeholder="Ketik keyword artikel disini ......" />
-        </div>
-      </div>
+      <Hero />
       <div className="headline">
         <div className="headline-large">
           <h1>Pemerintah Sudah Mencari Dana Bantuan Untuk Warga Kurang Mampu</h1>
           <p>Setelah kamu sudah tahu bagaimana dashboard ini bisa membantu pengguna nya (Pemilik Toko Online) langkah selanjutnya adalah mengubah poin poin tadi menjadi sebuah tampilan. Sebagai contoh, poin "Bisa mengetahui progress penjualan toko online mereka".Setelah kamu sudah tahu bagaimana dashboard ini bisa membantu pengguna nya (Pemilik Toko Online) langkah selanjutnya adalah mengubah poin poin tadi menjadi sebuah tampilan. Sebagai contoh, poin "Bisa mengetahui progress penjualan toko online mereka". angkah selanjutnya adalah mengubah poin poin tadi menjadi sebuah tampilan. Sebagai contoh, poin "Bisa mengetahui progress penjualan toko online mereka".</p>
-          <a href="#baca">Baca selengkapnya</a>
+          <Link to="/detail">Baca selengkapnya</Link>
         </div>
         <div className="headline-small">
           <div className="headline-small-1">
@@ -37,7 +30,7 @@ const Home = () => {
       <div className="categories">
         <div className="categories-header">
           <h1>Macam Soerat Kabar</h1>
-          <a href="#lihat-semua">Lihat Semua</a>
+          <Link to="/list">Lihat Semua</Link>
         </div>
         <div className="category">
           <div className="category-1">SEA GAMES</div>
