@@ -1,0 +1,57 @@
+.kategori {
+    margin: 128px 200px 120px;
+}
+
+.kategori-title {
+    margin-bottom: 52px;
+}
+
+.paling-populer {
+    margin: 0 200px;
+}
+
+.paling-populer-title {
+    margin-bottom: 82px;
+}
+
+.paling-populer-list-detail { grid-area: detail; }
+.paling-populer-list-button { grid-area: button; }
+
+.paling-populer-list {
+    display: grid;
+    grid-template-areas:
+        'detail detail detail detail button';
+    gap: 25px;
+    padding: 25px;
+    margin-bottom: 30px;
+    border: 1px solid #29291E;
+    h1, p, a, button {
+        font-family: 'Montserrat';
+    }
+}
+
+.paling-populer-list h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.paling-populer-list {
+    p, a {
+        font-size: 16px;
+    }
+}
+
+.paling-populer-list p {
+    margin-bottom: 15px;
+}
+
+.paling-populer-list a {
+    font-weight: 600;
+}
+
+.paling-populer-list button {
+    background: #000000;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 9px 14px;
+}

@@ -1,6 +1,6 @@
 import './index.scss';
 
-const Detail = () => {
+const DetailBerita = () => {
     return (
         <div className="detail">
             <div className="breadcrumb-byline-dateline">
@@ -33,4 +33,4 @@ const Detail = () => {
     )
 }
 
-export default Detail;
+export default DetailBerita;
