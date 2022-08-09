@@ -18,6 +18,7 @@ const Navigation = () => {
     <div>
       <div className={`navbar ${stickyNav ? 'sticky' : ''}`} id="navbar">
         <p>
+          {/* to utils.js */}
           {dateTime.toLocaleDateString('id-ID', {
             weekday: 'long',
             day: 'numeric',
@@ -28,6 +29,7 @@ const Navigation = () => {
             minute: 'numeric',
             second: 'numeric'
           })} WIB
+          {/* to utils.js */}
         </p>
         <div className="navbar-menu">
           <NavLink
@@ -38,36 +40,11 @@ const Navigation = () => {
           >
             Beranda
           </NavLink>
-          <NavLink to="/kategori">Kategori</NavLink>
-          <NavLink to="/arsip-nasional">Arsip Nasional</NavLink>
+          <NavLink to="/list-berita">Kategori</NavLink>
+          <NavLink to="/list-arsip">Arsip Nasional</NavLink>
         </div>
       </div>
     </div>
-    // <nav className="navbar navbar-expand-lg bg-light">
-    //   <div className="container">
-    //     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    //       <span className="navbar-toggler-icon"></span>
-    //     </button>
-    //     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-    //       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-    //         <li className="nav-item">
-    //           <a className="nav-link active" aria-current="page" href="#home">Home</a>
-    //         </li>
-    //       </ul>
-    //       <ul className="navbar-nav d-flex">
-    //         <li className="nav-item">
-    //           <a href="#beranda" className="nav-link">Beranda</a>
-    //         </li>
-    //         <li className="nav-item">
-    //           <a href="#kategori" className="nav-link">Kategori</a>
-    //         </li>
-    //         <li className="nav-item">
-    //           <a href="#arsip-nasional" className="nav-link">Arsip Nasional</a>
-    //         </li>
-    //       </ul>
-    //     </div>
-    //   </div>
-    // </nav>
   )
 }
 

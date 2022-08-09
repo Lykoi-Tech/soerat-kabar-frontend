@@ -12,7 +12,7 @@ const Home = () => {
         <div className="headline-large">
           <h1>Pemerintah Sudah Mencari Dana Bantuan Untuk Warga Kurang Mampu</h1>
           <p>Setelah kamu sudah tahu bagaimana dashboard ini bisa membantu pengguna nya (Pemilik Toko Online) langkah selanjutnya adalah mengubah poin poin tadi menjadi sebuah tampilan. Sebagai contoh, poin "Bisa mengetahui progress penjualan toko online mereka".Setelah kamu sudah tahu bagaimana dashboard ini bisa membantu pengguna nya (Pemilik Toko Online) langkah selanjutnya adalah mengubah poin poin tadi menjadi sebuah tampilan. Sebagai contoh, poin "Bisa mengetahui progress penjualan toko online mereka". angkah selanjutnya adalah mengubah poin poin tadi menjadi sebuah tampilan. Sebagai contoh, poin "Bisa mengetahui progress penjualan toko online mereka".</p>
-          <Link to="/detail">Baca selengkapnya</Link>
+          <Link to="/detail-berita">Baca selengkapnya</Link>
         </div>
         <div className="headline-small">
           <div className="headline-small-1">
